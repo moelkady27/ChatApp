@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txtMyMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/my_message_bubble"
+        android:fontFamily="@font/poppins"
+        android:maxWidth="240dp"
+        android:padding="15dp"
+        android:text="Hi, my message"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/message_icon"
+        app:layout_constraintTop_toTopOf="parent"
+        android:visibility="visible" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/myImageMessage"
+        android:layout_width="260dp"
+        android:layout_height="260dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="12sp"
+        android:background="@drawable/my_message_bubble"
+        android:maxWidth="240dp"
+        android:padding="15dp"
+        android:src="@drawable/iv_logo"
+        app:layout_constraintEnd_toStartOf="@id/message_icon"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:visibility="gone" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/myImageMessageTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:text="12:00 PM"
+        android:textSize="11sp"
+        android:textColor="@color/colorThemeDarkGrey"
+        android:fontFamily="@font/poppins_semibold"
+        app:layout_constraintBottom_toBottomOf="@+id/myImageMessage"
+        app:layout_constraintEnd_toStartOf="@+id/myImageMessage"
+        android:visibility="gone" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txtMyMessageTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:text="12:00 PM"
+        android:textSize="11sp"
+        android:textColor="@color/colorThemeDarkGrey"
+        android:fontFamily="@font/poppins_semibold"
+        app:layout_constraintBottom_toBottomOf="@+id/txtMyMessage"
+        app:layout_constraintEnd_toStartOf="@+id/txtMyMessage"
+        android:visibility="visible" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/message_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/ic_refresh"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:visibility="gone"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

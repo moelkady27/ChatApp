@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name" translatable="false">FinalProject</string>
+
+    <string name="content_description" translatable="false">image</string>
+    <string name="tv_welcome_title_1" translatable="false">
+        <font color='#FF6C63FF'>Discover</font>
+        <font color='#FF000000'>and Find Your \n Perfect</font>
+        <font color='#FF6C63FF'>Dream House</font></string>
+    <string name="tv_welcome_title_2" translatable="false">Explore and Locate Your Ideal Dream House</string>
+    <string name="sign_up" translatable="false">Sign Up</string>
+    <string name="sign_in" translatable="false">Sign In</string>
+    <string name="tv_sign_in_title" translatable="false">Sign In to Access Your Account</string>
+    <string name="email_hint" translatable="false">Email Address</string>
+    <string name="password_hint" translatable="false">Password</string>
+    <string name="cb_remember_me_sign_in" translatable="false">Remember me</string>
+    <string name="tv_forget_password_sign_in" translatable="false"><u>Forget password ?</u></string>
+    <string name="or_sign_in" translatable="false">Or</string>
+    <string name="new_member" translatable="false">New Member?</string>
+    <string name="register_now" translatable="false"><u>Register now</u></string>
+    <string name="sign_in_using_google" translatable="false">Sign In Using Google</string>
+    <string name="tv_sign_up_title" translatable="false">By Creating a Free Account</string>
+    <string name="user_name_hint" translatable="false">User Name</string>
+    <string name="confirm_password_hint" translatable="false">Confirm Password</string>
+    <string name="terms_and_conditions" translatable="false">
+        <font color='#FF413F58'>By checking the box you agree to our</font>
+        <font color='#FF6C63FF'><u>Terms</u></font>
+        <font color='#FF413F58'>and</font>
+        <font color='#FF6C63FF'><u>Conditions.</u></font></string>
+    <string name="next" translatable="false">Next</string>
+    <string name="sign_up_using_google" translatable="false">Sign Up Using Google</string>
+    <string name="already_a_member" translatable="false">Already a member?</string>
+    <string name="log_in" translatable="false"><u>Log In</u></string>
+
+    <string name="tv_verification_code_title_1" translatable="false">Enter 6-digit \nVerification code</string>
+    <string name="tv_verification_code_title_2" translatable="false">Code send to your Email This code will \nexpired in 01:30</string>
+    <string name="tv_did_not_receive_a_code" translatable="false">Didn’t receive a code?</string>
+    <string name="resend" translatable="false"><u>Resend</u></string>
+    <string name="tv_complete_sign_up_title_1" translatable="false">Fill in your bio to get started</string>
+    <string name="tv_title_2" translatable="false">This data will be displayed in your account profile for security</string>
+    <string name="first_name_hint" translatable="false">First Name</string>
+    <string name="last_name_hint" translatable="false">Last Name</string>
+    <string name="gender_hint" translatable="false">Gender</string>
+    <string name="phone_number_hint" translatable="false">Phone Number</string>
+    <string name="tv_upload_photo_title_1" translatable="false">Upload Your Photo Profile</string>
+    <string name="from_gallery" translatable="false">From Gallery</string>
+    <string name="take_photo" translatable="false">Take Photo</string>
+
+    <string name="tv_set_location_title_1" translatable="false">Set Your Location</string>
+    <string name="tv_set_location_title_3" translatable="false">Your Location</string>
+    <string name="btn_set_location" translatable="false">Set Location</string>
+    <string name="tv_congrats" translatable="false">Congrats!</string>
+    <string name="tv_your_profile_is_ready_to_use" translatable="false">Your Profile Is Ready To Use</string>
+    <string name="btn_start" translatable="false">Start</string>
+    <string name="tv_forgot_password_title_1" translatable="false">Forgot Password?</string>
+    <string name="tv_forgot_password_title_2" translatable="false">Don’t Worry \nEnter Your Email \nTo Reset Your Password</string>
+    <string name="btn_send" translatable="false">Send</string>
+    <string name="tv_check_your_mail_title_1" translatable="false">Check Your Mail</string>
+    <string name="tv_check_your_mail_title_2" translatable="false">Please check your email inbox and click on the provided link to reset your password.</string>
+    <string name="btn_ok" translatable="false">OK</string>
+    <string name="tv_reset_password_title_1" translatable="false">Reset your \npassword here</string>
+    <string name="tv_reset_password_title_2" translatable="false">Select which contact details should \nwe use to reset your password</string>
+    <string name="new_password_hint" translatable="false">New Password</string>
+    <string name="tv_password_reset_successful" translatable="false">Password Reset Successful</string>
+    <string name="btn_back" translatable="false">Back</string>
+    <string name="verify" translatable="false">Verify</string>
+    <string name="please_wait" translatable="false">Please Wait</string>
+    <string name="skip_now" translatable="false">Skip now</string>
+    <string name="profile_name" translatable="false">Mathew Adam</string>
+    <string name="tv_profile_email" translatable="false">mathew@email.com</string>
+    <string name="tv_delete_account_title_1" translatable="false">Delete Account</string>
+    <string name="tv_delete_account_title_2" translatable="false">Enter your password to delete the account</string>
+    <string name="til_your_password" translatable="false">Your Password</string>
+    <string name="btn_delete" translatable="false">Delete</string>
+    <string name="tv_user_name" translatable="false">Ashfak Sayem</string>
+    <string name="tv_email_name" translatable="false">ashfaksayem@gmail.com</string>
+    <string name="tv_edit_profile" translatable="false">Edit Profile</string>
+    <string name="tv_change_password" translatable="false">Change Password</string>
+    <string name="tv_notifications" translatable="false">Notifications</string>
+    <string name="tv_chats" translatable="false">Chats</string>
+    <string name="tv_favourites" translatable="false">Favourites</string>
+    <string name="tv_logout" translatable="false">Log out</string>
+    <string name="btn_delete_account" translatable="false">Delete Account</string>
+    <string name="change_your_password_here" translatable="false">Change Your Password here</string>
+    <string name="select_which_contact_details_should_we_use_to_change_your_password" translatable="false">Select which contact details should we use to Change your password</string>
+    <string name="old_password" translatable="false">Old Password</string>
+    <string name="new_password" translatable="false">New Password</string>
+    <string name="confirm_password" translatable="false">Confirm Password</string>
+    <string name="update" translatable="false">Update</string>
+    <string name="edit_profile" translatable="false">Edit Profile</string>
+    <string name="change_profile_picture" translatable="false">Change Profile Picture</string>
+    <string name="profile_info" translatable="false">Profile Info</string>
+    <string name="first_name" translatable="false">First Name</string>
+    <string name="last_name" translatable="false">Last Name</string>
+    <string name="notification" translatable="false">Notification</string>
+    <string name="messages" translatable="false">Messages</string>
+    <string name="tv_user_name_chat" translatable="false">Antonio P. Nielson</string>
+    <string name="type_a_messages" translatable="false">Type a Messages</string>
+    <string name="tv_delete_message_1" translatable="false">Delete Message</string>
+    <string name="tv_delete_message_2" translatable="false">Are you sure you want to delete this message?</string>
+    <string name="cancel" translatable="false">Cancel</string>
+    <string name="delete" translatable="false">Delete</string>
+    <string name="tv_edit_message" translatable="false">Edit Message</string>
+    <string name="edit" translatable="false">Edit</string>
+    <string name="edit_message_hint" translatable="false">Edit Message</string>
+    <string name="message_options" translatable="false">Message Options</string>
+    <string name="photo_chat" translatable="false">Photo</string>
+    <string name="save" translatable="false">Save</string>
+    <string name="favourites">Favourites</string>
+    <string name="estates">estates</string>
+    <string name="apartment">Apartment</string>
+
+
+</resources>

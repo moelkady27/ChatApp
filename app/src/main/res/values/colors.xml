@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF6C63FF</color>
+    <color name="colorPrimaryDark">#FF222934</color>
+    <color name="colorAccent">#FF6C63FF</color>
+
+    <color name="colorThemeBlue">#FF9292FD</color>
+    <color name="colorThemeLightBlue">#FF6C63FF</color>
+    <color name="colorThemeDarkBlue">#FF3400BA</color>
+    <color name="colorThemeDarkGreen">#FF252525</color>
+
+    <color name="colorPrimaryText">#FF413F58</color>
+    <color name="colorSecondaryText">#FFA39998</color>
+
+    <color name="colorThemeGrey">#FFF1F0F0</color>
+    <color name="colorThemeDarkGrey">#FF53587A</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorSnackBarError">#F72400</color>
+    <color name="colorSnackBarSuccess">#8BC34A</color>
+
+    <color name="edit">#eef3fb</color>
+    <color name="edit_text">#888888</color>
+
+    <color name="shape">#DADCDD</color>
+
+    <color name="online">#25d366</color>
+
+    <color name="favourite">#415770</color>
+</resources>

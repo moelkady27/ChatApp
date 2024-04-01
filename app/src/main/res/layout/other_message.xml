@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:paddingTop="5dp">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txtOtherMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/other_message_bubble"
+        android:fontFamily="@font/poppins"
+        android:maxWidth="240dp"
+        android:padding="15dp"
+        android:text="Hi, Ahmed's message"
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:visibility="visible" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/otherImageMessage"
+        android:layout_width="260dp"
+        android:layout_height="260dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/other_message_bubble"
+        android:maxWidth="240dp"
+        android:padding="15dp"
+        android:src="@drawable/iv_logo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:visibility="gone" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/otherImageMessageTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="12:00 PM"
+        android:textSize="11sp"
+        android:textColor="@color/colorThemeDarkGrey"
+        android:fontFamily="@font/poppins_semibold"
+        app:layout_constraintStart_toEndOf="@+id/otherImageMessage"
+        app:layout_constraintBottom_toBottomOf="@+id/otherImageMessage"
+        android:visibility="gone"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txtOtherMessageTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="12:00 PM"
+        android:textSize="11sp"
+        android:textColor="@color/colorThemeDarkGrey"
+        android:fontFamily="@font/poppins_semibold"
+        app:layout_constraintStart_toEndOf="@+id/txtOtherMessage"
+        app:layout_constraintBottom_toBottomOf="@+id/txtOtherMessage"
+        android:visibility="visible"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
