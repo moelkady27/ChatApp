@@ -1,5 +1,7 @@
 package com.example.chatapp.retrofit
 
+import com.example.chatapp.auth.models.SignInResponse
+import com.example.chatapp.auth.request.SignInRequest
 import com.example.chatapp.chat.models.ChatListUsersResponse
 import com.example.chatapp.chat.models.DeleteMessageResponse
 import com.example.chatapp.chat.models.EditMessageResponse
@@ -13,6 +15,7 @@ import retrofit2.http.Body
 import retrofit2.http.DELETE
 import retrofit2.http.GET
 import retrofit2.http.Header
+import retrofit2.http.Headers
 import retrofit2.http.POST
 import retrofit2.http.Path
 import retrofit2.http.Multipart
@@ -20,6 +23,13 @@ import retrofit2.http.PATCH
 import retrofit2.http.Part
 
 interface ApiService {
+
+    @Headers("Content-Type: application/json")
+    @POST("api/v1/auth/login")
+    fun login(
+        @Body req: SignInRequest
+    ) : Call<SignInResponse>
+
     @GET("api/v1/chat/get-conversations")
     fun getChatUsers(
         @Header("Authorization") token: String,

@@ -24,7 +24,7 @@
             android:screenOrientation="portrait"
             android:theme="@style/Base.Theme.ChatApp" />
         <activity
-            android:name=".MainActivity"
+            android:name=".auth.activities.LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
