@@ -11,7 +11,13 @@ This is a simple chat demo for socket.io and Android.
 - Room Database
 - Single activity
 
-# Screen Shots
+## Screenshots
+
+|                                                                                                          |                                                                                                          |                                                                                                          |
+|----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
+|<img src="https://github.com/user-attachments/assets/f5a3c283-78de-4321-9065-6f22072a2857" alt="Screenshot 1" width="350"/> | <img src="https://github.com/user-attachments/assets/de595806-42a6-4836-97d0-eaa5dfded47a" alt="Screenshot 2" width="350"/> | <img src="https://github.com/user-attachments/assets/151cef3b-240e-4927-83a9-b82522a3cbc8" alt="Screenshot 3" width="300"/> |
+|<img src="https://github.com/user-attachments/assets/6831ed11-c27c-4ac5-b8e0-8d8177b797f5" alt="Screenshot 4" width="300"/> | <img src="https://github.com/user-attachments/assets/6783b8a9-ff64-47dd-8e57-5ce279711702" alt="Screenshot 5" width="300"/> |                                                                                                          |
+
 
 
 
